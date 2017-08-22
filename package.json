@@ -1,0 +1,19 @@
+{
+  "name": "Dropper",
+  "version": "1.0.0",
+  "description": "A friendly little colour tool for MacOS",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . 'Eye Dropper' --all"
+  },
+  "author": "Raymond Tieu",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-packager": "^7.1.0",
+    "electron-prebuilt": "^1.2.0",
+    "electron-rebuild": "^1.6.0",
+    "node-notifier": "^4.6.0",
+    "robotjs": "^0.4.7"
+  }
+}
