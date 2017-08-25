@@ -1,0 +1,28 @@
+{
+  "name": "Dropper",
+  "version": "1.0.0",
+  "description": "A tiny eye dropper tool for MacOS",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . 'Dropper' --all"
+  },
+  "author": "Bryce Wendelaar",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-packager": "^7.1.0",
+    "electron-prebuilt": "^1.2.8",
+    "electron-rebuild": "^1.6.0",
+    "node-notifier": "^4.6.0",
+    "robotjs": "^0.4.7"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wendelcorp/Dropper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wendelcorp/Dropper/issues"
+  },
+  "homepage": "https://github.com/Wendelcorp/Dropper#readme"
+}
